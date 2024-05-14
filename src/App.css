@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+}
+section {
+  padding: 2rem 3rem;
+  background-color: aliceblue;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(127, 255, 212, 0.725);
+  margin: 50px auto;
+  min-height: 75vh;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  max-width: 700px;
+}
+.main h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 8px auto;
+  text-align: center;
+}
+.main p {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 2px;
+  margin: 2px;
+}
+
+.main input {
+  width: 100%;
+  padding: 3px;
+}
+.main h2 {
+  margin: 5px 7px;
+  text-align: center;
+}
+.bmi-heading {
+  margin: 5px 7px;
+}
+.categories {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 425px) {
+  .main h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 8px auto;
+  }
+  .main p {
+    font-size: 15px;
+  }
+  .main h2 {
+    font-size: 1.4rem;
+  }
+  .bmi-heading {
+    font-size: 1.4rem;
+  }
+  .categories {
+    font-size: 0.9rem;
+  }
+}
